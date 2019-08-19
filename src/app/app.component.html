@@ -3,16 +3,6 @@ isaul <h1>isaul</h1>
   <div>name: <input type="text" [(ngModel)]="name">{{name}}</div> 
   <div>DNI: <input type="text" [(ngModel)]="dni">{{dni}}</div>
 </div>
-<app-header></app-header>
-<app-body></app-body>
-<app-footer></app-footer>
-<app-alfa></app-alfa>
-<app-beta></app-beta>
-<app-gamma></app-gamma>
-<app-delta></app-delta>
-<app-epsilon></app-epsilon>
-<app-dseta></app-dseta>
-<app-eta></app-eta>
-<app-theta></app-theta>
+<button mat-button [routerLink]="['/secundary']">Secundary!</button>
 
 <router-outlet></router-outlet>

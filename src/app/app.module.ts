@@ -28,6 +28,7 @@ import { EtaComponent } from './eta/eta.component';
 import {MatSliderModule} from '@angular/material/slider';
 import { ThetaComponent } from './theta/theta.component';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import { SecundarymoduleModule } from './secundarymodule/secundarymodule.module';
 
 @NgModule({
   declarations: [
@@ -43,12 +44,13 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
     DsetaComponent,
     EtaComponent,
     ThetaComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule, CommonModule, FormsModule, BrowserAnimationsModule, MatToolbarModule, MatCardModule, MatButtonModule,
     MatChipsModule, MatProgressSpinnerModule, MatPaginatorModule, MatSortModule, MatGridListModule, MatInputModule, MatSliderModule,
-    MatSlideToggleModule
+    MatSlideToggleModule, SecundarymoduleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
